@@ -1,0 +1,22 @@
+{
+  "name": "singaid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Resi Wicaksono",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "csv-writer": "^1.6.0",
+    "readline": "^1.3.0"
+  },
+  "preferGlobal": true,
+  "bin": "./index.js"
+}
